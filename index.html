@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Importação do Tailwind CSS via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
     <title>Equipe profissional</title>
 </head>
 <body>
     <!-- Card -->
-    <article> 
-        <img src="img/woman360x360.jpg" alt="Foto">
-        <h3>Rute Maria</h3>
-        <p>Desenvolvedora Web</p>
-        <button>Conectar</button>
+    <article class="cursor-pointer text-center w-72 p-4 border border-gray-200 rounded-lg shadow-lg hover:shadow-md transition"> 
+        <img src="img/woman360x360.jpg" alt="Foto" class="w-24 m-auto border-4 border-gray-400 rounded-full">
+        <h3 class="text-[24px] font-bold text-gray-800 mt-4">Rute Maria</h3>
+        <p class="text-[16px] text-gray-600">Desenvolvedora Web</p>
+        <button class="mt-4 px-4 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition">Conectar</button>
     </article>
     <!-- Card: fim -->
     <footer>
